@@ -1,0 +1,19 @@
+<html>
+<head>
+  <!-- <script type="text/javascript" src="/js/index.js"></script> -->
+  <!-- <script type="text/javascript" src="/js/calculator.js"></script>
+  <script type="text/javascript" src="/js/store.js"></script> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="/css/base.css">
+</head>
+
+<body>
+  <div id="react-target" data-ui-role="content"><%-content %></div>
+  <script>
+      window.APP_STATE = <%-context%>;
+  </script>
+
+  <script type="text/javascript" src="/js/app.bundle.js"></script>
+</body>
+</html>

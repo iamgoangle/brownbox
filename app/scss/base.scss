@@ -1,0 +1,71 @@
+$brand-primary: #BA3334;
+$navbar-default-link-hover-color: #fff;
+$navbar-default-link-hover-bg: #BA3334;
+
+@import "bootstrap-sass-3.3.6/assets/stylesheets/bootstrap";
+@import "footer.scss";
+
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.bg1 {
+  background-color: #E8AF62;
+}
+
+.bg2 {
+  background-color: #D4BD8A;
+}
+
+.bg3 {
+  background-color:#DED3CB;
+}
+
+.bg4 {
+  background-color:#BA3334;
+}
+
+.bg5 {
+  background-color:#373735;
+}
+
+.black{
+  color:#373735;
+}
+
+.margin10{
+  margin:10px;
+}
+
+body {
+  font-family:-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI",Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+}
+
+.inline-headers h1{
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.lfloat , .floatl {
+  float:left;
+}
+
+.rfloat , .floatr {
+  float:right;
+}
+
+.container.body{
+  padding-top:20px;
+}
+
+/* ----------- CATEGORY BAR --------*/
+.category-bar {
+  a{
+    font-size:15px;
+  }
+}
